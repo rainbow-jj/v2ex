@@ -3,14 +3,12 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import { Container,Main,Header,Footer} from 'element-ui';
+import './plugins/element'
 import 'element-ui/lib/theme-chalk/index.css';
 import '../src/assets/css/global.css'
 
-Vue.use(Container);
-Vue.use(Main);
-Vue.use(Header);
-Vue.use(Footer);
+
+
 
 Vue.config.productionTip = false
 
